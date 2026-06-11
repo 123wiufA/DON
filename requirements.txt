@@ -1,0 +1,9 @@
+# ===== 核心依赖 =====
+# PyTorch 需按 CUDA 版本单独安装（见 README，适配 RTX 4060）：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# 其余依赖：
+numpy>=1.24
+h5py>=3.8
+matplotlib>=3.7
+scipy>=1.10
+tqdm>=4.65
